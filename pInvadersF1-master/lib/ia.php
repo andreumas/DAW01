@@ -3,7 +3,7 @@ class ia
 {
 
 public $fila = "2";
- public $columna = "3";
+ public $columna = "4";
 
 //declaracion getcolumna i getfila
 public function getColumna(){
