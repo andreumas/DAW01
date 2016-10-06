@@ -7,10 +7,10 @@ public $fila = "2";
 
 //declaracion getcolumna i getfila
 public function getColumna(){
-  return $this->fila;
+  return $this->columna;
 }
 public function getFila(){
- return $this->columna;
+ return $this->fila;
 }
 
 
