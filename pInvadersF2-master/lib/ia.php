@@ -1,29 +1,18 @@
 <?php
-class ia
-{
-
-public $fila = "2";
- public $columna = "3";
-
-//declaracion getcolumna i getfila
-public function GetColumna(){
-  return $this->fila;
-
+Class ia{
+var $columna;
+var $fila;
+	
+public function getColumna()
+    {
+		$columna=rand(1,3);
+        return $columna;
+		
+    }
+	public function getFila()
+    {
+		$fila=rand(1,4);
+        return $fila ;
+    }
 }
-public function GetFila(){
- return $this->columna;
-}
-//setters
-public function setColumna($col){
-  return $this->columna=$col;
-}
-  public function setFila($fil){
-    return $this->fila=$fil;
-}
-
-}
-
-
-
-
 ?>
